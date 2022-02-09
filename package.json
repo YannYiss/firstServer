@@ -1,0 +1,22 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "API conectada con PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server",
+    "dev": "nodemon ./server"
+  },
+  "author": "Adrian Nieto",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "pg": "^8.7.1",
+    "sql": "^0.78.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
